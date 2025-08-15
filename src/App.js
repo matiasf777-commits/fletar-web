@@ -1,3 +1,5 @@
+import Footer from './components/Footer';
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ClienteRegistro from './ClienteRegistro';
@@ -28,3 +30,5 @@ const App = () => (
 );
 
 export default App;
+<Footer />
+
