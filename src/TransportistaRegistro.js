@@ -24,3 +24,10 @@ const TransportistaRegistro = () => (
 );
 
 export default TransportistaRegistro;
+<div style={{ marginTop: '1rem' }}>
+  <input type="checkbox" required />{' '}
+  Acepto los{' '}
+  <a href="/legal/fletiq_terminos_y_condiciones.html" target="_blank">Términos y Condiciones</a>,{' '}
+  <a href="/legal/fletiq_politica_de_privacidad.html" target="_blank">Política de Privacidad</a> y{' '}
+  <a href="/legal/fletiq_contrato_de_adhesion_transportistas.html" target="_blank">Contrato de Adhesión</a>.
+</div>
